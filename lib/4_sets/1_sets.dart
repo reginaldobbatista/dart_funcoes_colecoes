@@ -14,6 +14,7 @@ void main(){
 
   
   // o Set {} ele não duplica a lista
+  // Serve para o nome de guerra do aluno, para não duplicar
   var numerosSet = <int?>{};
   numerosSet.add(1);
   numerosSet.add(2);
@@ -45,8 +46,23 @@ print(numeros1.union(numeros2));
 print('.intersection');
 print(numeros1.intersection(numeros2));
 
+var nomes1 = {'Reginaldo', 'Maria', 'José'};
+var nomes2 = {'Reginaldo', 'Lalá', 'Elric'};
+print(nomes1.intersection(nomes2));
+
+// Função que serve para procurar dentro do sistema o nome escrito
 print('.lookup');
 print(numeros1.lookup(1));
+print(nomes1.lookup('Reginaldo'));
+print(nomes1.lookup('reginaldo'));
+
+// Para extrair dados do SET
+// Precisa utilizar o elementAt
+
+nomes1.elementAt(0);
+nomes1.elementAt(1);
+
+nomes1.toList()[];
 
 
 

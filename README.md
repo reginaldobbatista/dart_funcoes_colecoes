@@ -2,7 +2,6 @@
 ## Dart Funções e Coleções
 
 Projeto criado para estudo e desenvolvido com apoio do Prof. e Dev Rodrigo Rahman (CEO da Academia do Flutter).
-Linguagem utilizada no projeto dart.
 
 ## Linguagem Utilizada
 <div>
