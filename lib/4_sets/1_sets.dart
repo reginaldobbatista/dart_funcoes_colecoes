@@ -1,3 +1,6 @@
+
+
+
 void main(){
   
   var numerosLista = <int?>[];
@@ -30,12 +33,15 @@ void main(){
   var numeros1 = {1,2,3,4,5,6};
   var numeros2 = {1,3,4,7};
 
+// função para encontrar a diferença que tem do primeiro conjunto com o segundo
 print('.difference()');
 print(numeros1.difference(numeros2));
 
+// função utilizada para unir os dois conjuntos
 print('.union');
 print(numeros1.union(numeros2));
 
+// função utilizada para encontrar a interseção 
 print('.intersection');
 print(numeros1.intersection(numeros2));
 
