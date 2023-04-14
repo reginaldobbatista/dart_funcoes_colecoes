@@ -1,5 +1,5 @@
 
-
+// AULA ASSISTIDA
 
 void main(){
   
@@ -62,7 +62,7 @@ print(nomes1.lookup('reginaldo'));
 nomes1.elementAt(0);
 nomes1.elementAt(1);
 
-nomes1.toList()[];
+nomes1.toList()[1];
 
 
 
