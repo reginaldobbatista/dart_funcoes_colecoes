@@ -76,7 +76,7 @@ void main() {
         'nome': 'Academia do Flutter',
         'descricao': 'Melhor curso de flutter do Brasil'
       },
-            {
+      {
         'nome': 'Arquiteto do Flutter',
         'descricao': 'Melhor curso de flutter do Brasil'
       }
